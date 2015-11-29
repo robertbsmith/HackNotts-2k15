@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Robert/AndroidStudioProjects/BluetoothChat/Application/src/main/res/values-v11/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <!-- From: file:/C:/Users/Robert/AndroidStudioProjects/BluetoothChat/Application/src/main/res/values-v11/template-styles.xml -->
+    <eat-comment/>
+    <style name="Theme.Base" parent="android:Theme.Holo.Light"/>
+</resources>
