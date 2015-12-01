@@ -16,20 +16,33 @@
 -->
 
 <resources>
-    <string name="app_name">BluetoothChat</string>
+    <string name="app_name">Bluetooth Rover</string>
     <string name="intro_message">
         <![CDATA[
         
             
-            This application allows two Android devices to carry out two-way text chat over
-            Bluetooth. It demonstrates all the fundamental Bluetooth API capabilites, such as:
-              (1) Scanning for other Bluetooth devices
-              (2) Querying the local Bluetooth adapter for paired Bluetooth devices
-              (3) Establishing RFCOMM channels/sockets
-              (4) Connecting to a remote device
-              (5) Transfering data over Bluetooth
-            
+            Connect to a bluetooth enabled robot and use the following commands (ascii characters without the \"\"):
+                \n\"1\" - Forward
+                \n\"2\" - Left
+                \n\"3\" - Right
+                \n\"4\" - Back
+                \n\"L\" - Left indicator
+                \n\"R\" - Right indicator
+                \n\"C\" - Cruise Control (toggled)
+                \n\"F\" - lights (toggled)
+                \n\"S\" - Sound on
+                \n\"s\" - Sound off
+                \n\"0\" - Stop moving (after release of any directional button)
         
+        ]]>
+    </string>
+
+     <string name="about_message">
+        <![CDATA[
+
+
+            Created by the Clausiousity Rover team released to drive fellow rovers (2015)
+
         ]]>
     </string>
 </resources>
